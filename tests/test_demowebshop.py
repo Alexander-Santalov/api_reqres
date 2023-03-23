@@ -3,7 +3,7 @@ from selene import have
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты demowebshop')
+@allure.feature('Тесты demowebshop')
 @allure.title('Успешная авторизация')
 def test_auth(app):
     app.open('')
@@ -12,7 +12,7 @@ def test_auth(app):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты demowebshop')
+@allure.feature('Тесты demowebshop')
 @allure.title('Удаление товара из списка желаемого')
 def test_delete_product_from_wishlist(demoshop, app):
     app.open("")
@@ -26,7 +26,7 @@ def test_delete_product_from_wishlist(demoshop, app):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты demowebshop')
+@allure.feature('Тесты demowebshop')
 @allure.title('Удаление товара из карзины')
 def test_delete_product_from_cart(demoshop, app):
     app.open('')
@@ -40,7 +40,7 @@ def test_delete_product_from_cart(demoshop, app):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты demowebshop')
+@allure.feature('Тесты demowebshop')
 @allure.title('Удаление адреса покупателя')
 def test_delete_customer_address(demoshop, app):
     app.open('')
@@ -68,7 +68,7 @@ def test_delete_customer_address(demoshop, app):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты demowebshop')
+@allure.feature('Тесты demowebshop')
 @allure.title('Логаут')
 def test_logout(app):
     app.open("")

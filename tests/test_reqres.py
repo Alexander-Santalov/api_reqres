@@ -4,7 +4,7 @@ from schemas.schemas import *
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Создание пользователя')
 def test_create_user(reqres):
     created_user = reqres.post('api/users', {'name': 'Alex', 'job': 'Tester'})
@@ -16,7 +16,7 @@ def test_create_user(reqres):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Обновление пользователя через метод put')
 def test_update_user_by_put(reqres):
     update_user = reqres.put('api/users/2', {'name': 'sant', 'job': 'aqa'})
@@ -28,7 +28,7 @@ def test_update_user_by_put(reqres):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Обновление пользователя через метод patch')
 def test_update_user_by_patch(reqres):
     update_user = reqres.put('api/users/2', {'name': 'asantalov', 'job': 'manual_tester'})
@@ -40,7 +40,7 @@ def test_update_user_by_patch(reqres):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Удаление пользователя')
 def test_delete_user(reqres):
     delete_user = reqres.delete('api/users/2')
@@ -49,7 +49,7 @@ def test_delete_user(reqres):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Успешная регистрация')
 def test_successful_register(reqres):
     user_register = reqres.post('api/register', {'email': 'eve.holt@reqres.in', 'password': 'pistol'})
@@ -61,7 +61,7 @@ def test_successful_register(reqres):
 
 
 @allure.label('owner', 'Александр Санталов')
-@allure.epic('Тесты reqres.in')
+@allure.feature('Тесты reqres.in')
 @allure.title('Неуспешная регистрация')
 def test_unsuccessful_register(reqres):
     user_register = reqres.post('api/register', {'email': 'sydney@fife'})
