@@ -2,16 +2,22 @@ import allure
 from selene import have
 
 
+@allure.label('owner', 'Александр Санталов')
+@allure.epic('Тесты demowebshop')
+@allure.title('Успешная авторизация')
 def test_auth(app):
-    app.open("")
+    app.open('')
     with allure.step('Проверка успешной авторизации'):
-        app.element(".account").should(have.text("vgtrk520@yandex.ru"))
+        app.element('.account').should(have.text('vgtrk520@yandex.ru'))
 
 
+@allure.label('owner', 'Александр Санталов')
+@allure.epic('Тесты demowebshop')
+@allure.title('Удаление товара из списка желаемого')
 def test_delete_product_from_wishlist(demoshop, app):
     app.open("")
     with allure.step('Добавление товара в список желаемого'):
-        demoshop.post("addproducttocart/details/14/2", json={"addtocart_14.EnteredQuantity": '1'})
+        demoshop.post('addproducttocart/details/14/2', json={'addtocart_14.EnteredQuantity': '1'})
     with allure.step('Проверка удаления товара из списка желаемого'):
         app.element('.ico-wishlist').click()
         app.element('[name="removefromcart"]').click()
@@ -19,10 +25,13 @@ def test_delete_product_from_wishlist(demoshop, app):
         app.element('.wishlist-content').should(have.text('The wishlist is empty!'))
 
 
+@allure.label('owner', 'Александр Санталов')
+@allure.epic('Тесты demowebshop')
+@allure.title('Удаление товара из карзины')
 def test_delete_product_from_cart(demoshop, app):
-    app.open("")
+    app.open('')
     with allure.step('Добавление товара в карзину'):
-        demoshop.post("addproducttocart/catalog/31/1/1")
+        demoshop.post('addproducttocart/catalog/31/1/1')
     with allure.step('Проверка удаления товара из карзины'):
         app.element('.ico-cart').click()
         app.element('[name="removefromcart"]').click()
@@ -30,22 +39,25 @@ def test_delete_product_from_cart(demoshop, app):
         app.element('.order-summary-content').should(have.text('Your Shopping Cart is empty!'))
 
 
+@allure.label('owner', 'Александр Санталов')
+@allure.epic('Тесты demowebshop')
+@allure.title('Удаление адреса покупателя')
 def test_delete_customer_address(demoshop, app):
-    app.open("")
+    app.open('')
     with allure.step('Добавление адреса'):
-        demoshop.post("customer/addressadd", json={"Address.Id": "0",
-                                                   "Address.FirstName": "Aleksandr",
-                                                   "Address.LastName": "Santalov",
-                                                   "Address.Email": "vgtrk520@yandex.ru",
-                                                   "Address.Company": "Bolid",
-                                                   "Address.CountryId": "66",
-                                                   "Address.StateProvinceId": "0",
-                                                   "Address.City": "Zelenograd",
-                                                   "Address.Address1": "Nekrasova, 18",
-                                                   "Address.Address2": "Nekrasova, 21",
-                                                   "Address.ZipPostalCode": "1231231",
-                                                   "Address.PhoneNumber": "89167112233",
-                                                   "Address.FaxNumber": "12321123"
+        demoshop.post("customer/addressadd", json={'Address.Id': '0',
+                                                   'Address.FirstName': 'Aleksandr',
+                                                   'Address.LastName': 'Santalov',
+                                                   'Address.Email': 'vgtrk520@yandex.ru',
+                                                   'Address.Company': 'Bolid',
+                                                   'Address.CountryId': '66',
+                                                   'Address.StateProvinceId': '0',
+                                                   'Address.City': 'Zelenograd',
+                                                   'Address.Address1': 'Nekrasova, 18',
+                                                   'Address.Address2': 'Nekrasova, 21',
+                                                   'Address.ZipPostalCode': '1231231',
+                                                   'Address.PhoneNumber': '89167112233',
+                                                   'Address.FaxNumber': '12321123'
                                                    })
     with allure.step('Проверка удаления адреса'):
         app.element('.account').click()
@@ -55,6 +67,9 @@ def test_delete_customer_address(demoshop, app):
         app.element('.address-list').should(have.text('No addresses'))
 
 
+@allure.label('owner', 'Александр Санталов')
+@allure.epic('Тесты demowebshop')
+@allure.title('Логаут')
 def test_logout(app):
     app.open("")
     with allure.step('Проверка логаута'):
