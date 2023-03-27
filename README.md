@@ -51,7 +51,6 @@
 ##### Во вкладке Behaviors находятся собранные тест кейсы, у которых описаны шаги. Для api методов реализованы вложения. Для комбинированных тестов по окончанию теста делается скриншот и сохраняется видеозапись теста.
 ![Behaviors](images/allure2.jpg)
 
-<video width="320" height="240" controls>
-  <source src="video.mov" type="video/mp4">
-</video>
+##### Видео теста Удаления товара из карзины.
+https://user-images.githubusercontent.com/87572795/228053887-4dfc4ce6-4ea3-478f-a074-fb8456706c94.mp4
 
