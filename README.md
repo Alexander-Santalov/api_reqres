@@ -42,6 +42,5 @@
 
 ### <img width="3%" title="Jenkins" src="https://avatars.githubusercontent.com/u/2520748?v=4"> [Запуск проекта в Jenkins](https://jenkins.autotests.cloud/job/asantalov_diplom_api/)
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере Jenkins.
-![Jenkins_run](/images/run.png)
+![Jenkins_run](/images/run.jpg)
 
-<image src="/images/run.png" alt="Текст с описанием картинки">
