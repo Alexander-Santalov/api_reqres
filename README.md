@@ -55,3 +55,16 @@
 
 https://user-images.githubusercontent.com/87572795/228053887-4dfc4ce6-4ea3-478f-a074-fb8456706c94.mp4
 
+### <img width="3%" title="Allure TestOps" src="[images/logo_stacks/allure_testops.png](https://marketplace-cdn.atlassian.com/files/92e2d8c3-2a30-46c0-bf21-2453a4a270d3?fileType=image&mode=full-fit)"> [Интеграция с Allure TestOps](https://allure.autotests.cloud/project/2074/dashboards)
+
+##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
+![Graf](images/teastOP.jpg)
+
+#### Во вкладке со сьютами, мы можем:
+- Управлять всеми тест-кейсами или с каждым отдельно
+- Перезапускать каждый тест отдельно от всех тестов
+- Настроить интеграцию с Jira
+- Добавлять ручные тесты и т.д
+
+![tests](images/testOps.jpg)
+
