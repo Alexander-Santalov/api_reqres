@@ -68,10 +68,10 @@ https://user-images.githubusercontent.com/87572795/228053887-4dfc4ce6-4ea3-478f-
 
 ![tests](images/testOps.jpg)
 
-### <img width="3%" title="Jira" src="https://logojinni.com/image/logos/jira-3.svg"> Интеграция с Jira
+### <img width="3%" title="Jira" src="https://logojinni.com/image/logos/jira-3.svg"> [Интеграция с Jira](https://jira.autotests.cloud/browse/HOMEWORK-611)
 ##### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
 
-![This is an image](images/jira.jpg)
+![Jira](images/jira.jpg)
 
 
 ### <img width="3%" title="Telegram" src="https://cdn.icon-icons.com/icons2/923/PNG/256/telegram_icon-icons.com_72055.png"> Интеграция с Telegram
