@@ -44,3 +44,7 @@
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере Jenkins.
 ![Jenkins_run](/images/run.jpg)
 
+### <img width="3%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"> Allure report
+##### После прохождения тестов, результаты можно посмотреть в Allure отчете.
+![This is an image](images/screenshots/allure_dashboard.png)
+
