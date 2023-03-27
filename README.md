@@ -46,5 +46,8 @@
 
 ### <img width="3%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"> Allure report
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете.
-![overview](images/all.jpg)
+![Overview](images/all.jpg)
+
+##### Во вкладке Behaviors находятся собранные тест кейсы, у которых описаны шаги. Для api методов реализованы вложения. Для комбинированных тестов по окончанию теста делается скриншот и сохраняется видеозапись теста.
+![Behaviors](images/allure2.jpg)
 
