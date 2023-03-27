@@ -55,7 +55,7 @@
 
 https://user-images.githubusercontent.com/87572795/228053887-4dfc4ce6-4ea3-478f-a074-fb8456706c94.mp4
 
-### <img width="3%" title="Allure TestOps" src="[images/logo_stacks/allure_testops.png](https://marketplace-cdn.atlassian.com/files/92e2d8c3-2a30-46c0-bf21-2453a4a270d3?fileType=image&mode=full-fit)"> [Интеграция с Allure TestOps](https://allure.autotests.cloud/project/2074/dashboards)
+### <img width="3%" title="Allure TestOps" src="https://marketplace-cdn.atlassian.com/files/92e2d8c3-2a30-46c0-bf21-2453a4a270d3?fileType=image&mode=full-fit"> [Интеграция с Allure TestOps](https://allure.autotests.cloud/project/2074/dashboards)
 
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
 ![Graf](images/teastOP.jpg)
@@ -67,4 +67,15 @@ https://user-images.githubusercontent.com/87572795/228053887-4dfc4ce6-4ea3-478f-
 - Добавлять ручные тесты и т.д
 
 ![tests](images/testOps.jpg)
+
+### <img width="3%" title="Jira" src="https://logojinni.com/image/logos/jira-3.svg"> Интеграция с Jira
+##### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
+
+![This is an image](images/jira.jpg)
+
+
+### <img width="3%" title="Telegram" src="https://cdn.icon-icons.com/icons2/923/PNG/256/telegram_icon-icons.com_72055.png"> Интеграция с Telegram
+##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах.
+
+![Telegram](images/telega.jpg)
 
