@@ -14,3 +14,32 @@
 <code><img width="5%" title="GitHub" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></code>
 <code><img width="5%" title="Telegram" src="https://cdn.icon-icons.com/icons2/923/PNG/256/telegram_icon-icons.com_72055.png"></code>
 </p>
+<br> 
+
+### Проекст состоит из двух групп тестов:
+<details><summary><b>reqres.in - только api тесты</b></summary>
+<ul>
+  <li>Создание пользователя</li>
+  <li>Обновление пользователя через метод put</li>
+  <li>Обновление пользователя через метод patch</li>
+  <li>Удаление пользователя</li>
+  <li>Успешная регистрация</li>
+  <li>Неуспешная регистрация</li>
+</ul>
+
+</details>
+<details><summary><b>demowebshop - комбинированные ui\api тесты</b></summary>
+<br> 
+<ul>
+  <li>Успешная авторизация</li>
+  <li>Удаление товара из списка желаемого</li>
+  <li>Удаление товара из карзины</li>
+  <li>Удаление адреса покупателя</li>
+  <li>Логаут</li>
+</ul>
+</details>
+<br>
+
+### <img width="3%" title="Jenkins" src="https://avatars.githubusercontent.com/u/2520748?v=4"> [Запуск проекта в Jenkins](https://jenkins.autotests.cloud/job/asantalov_diplom_api/)
+##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение на сервере Jenkins.
+
