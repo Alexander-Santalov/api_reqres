@@ -46,5 +46,5 @@
 
 ### <img width="3%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"> Allure report
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете.
-![This is an image](images/screenshots/allure_dashboard.png)
+![overview](images/all.jpg)
 
